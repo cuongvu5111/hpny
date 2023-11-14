@@ -5,7 +5,7 @@ const secondsElement = document.querySelector("#seconds");
 const monthsElement = document.querySelector("#months");
 
 // Get specific date and time in milliseconds from 1970 UTC
-let countDownDate = new Date("Jan 22, 2023").getTime();
+let countDownDate = new Date("Feb 10, 2023").getTime();
 $("body").addClass("loading"); 
 setTimeout(function(){ 
 
